@@ -12,12 +12,12 @@ class QuestionsController < ApplicationController
     perfect_answer = 'I am going to work'
     if your_answer != perfect_answer
       if your_answer[-1] == '?'
-        'Silly question, get dressed and go to work!'
+        'To work, get dressed and go, you must! Hmm, yes.'
       else
-        "I don't care, get dressed and go to work!"
+        'Care, you do not? Get dressed and go to work, you must! Hmm.'
       end
     else
-      'Great!'
+      'The Force will be with you, always.'
     end
   end
 end
