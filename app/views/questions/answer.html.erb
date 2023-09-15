@@ -18,11 +18,14 @@
 
     <blockquote class="coach">
       <p><%= @answer %></p>
-      <cite>Your coach</cite>
+      <cite>Jedi Master Yoda</cite>
     </blockquote>
   </div>
 
   <div class="card-footer text-muted text-center">
-    <p>"Success isn't permanent, and failure isn't fatal." - Mike Ditka</p>
+    <%# <p>"Success isn't permanent, and failure isn't fatal." - Mike Ditka</p> %>
+    </p>
+      "<%= Faker::Quote.yoda %>" - Yoda
+    <p>
   </div>
 </div>
